@@ -4,7 +4,7 @@
   "description": "SDK7 Template scene",
   "scripts": {
     "start": "sdk-commands start",
-    "deploy": "sdk-commands deploy",
+    "dev": "tsc -p tsconfig.json --watch",
     "build": "sdk-commands build",
     "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
     "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"

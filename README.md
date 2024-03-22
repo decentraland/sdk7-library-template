@@ -17,3 +17,8 @@ Transform.getOrNull(entity)
 Set your NPM_TOKEN on github secrets and the lib will automatically be deployed to npm registry.
 Be sure to set the package.json#name property with your library name.
 See .github/workflows/ci.yml file.
+
+
+### Development
+`npm run dev` to start the typescript compiler.
+`npm run start` to start the library as a scene.
