@@ -1,18 +1,19 @@
 {
   "name": "dcl-project",
   "version": "1.0.0",
-  "description": "SDK7 Template scene",
+  "description": "SDK7 Template Library",
   "scripts": {
-    "start": "sdk-commands start",
     "dev": "tsc -p tsconfig.json --watch",
-    "build": "sdk-commands build",
+    "build": "tsc -p tsconfig.json --watch",
     "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
     "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"
   },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "devDependencies": {
     "@dcl/js-runtime": "latest",
     "@dcl/sdk": "latest",
-    "@dcl/asset-packs": "latest"
+    "typescript": "^5.5.3"
   },
   "engines": {
     "node": ">=16.0.0",
